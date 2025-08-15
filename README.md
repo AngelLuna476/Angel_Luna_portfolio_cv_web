@@ -19,6 +19,7 @@
 
 - **Frontend**: HTML, CSS y JavaScript personalizados.
 - **GitHub integrado**: Documentación interactiva y código limpio.
+- **Diseño Responsivo:** Se adapta a cualquier pantalla.
 
 ---
 
