@@ -759,6 +759,7 @@ footer p {
 
   .sidebar.mostrar + .main-content + footer{
     transform: translateX(5%) !important;
+    overflow-y: auto !important;
   }
 
     /* Footer */
@@ -1728,3 +1729,4 @@ footer p {
   }
 
 }
+
