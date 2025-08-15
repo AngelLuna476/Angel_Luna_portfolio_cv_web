@@ -2,7 +2,7 @@
 
 ¡Bienvenido a mi espacio de proyectos! Soy Ángel Luna, ingeniero especializado en mantenimiento industrial, machine learning y calidad / auditoria. Este portfolio web es una ventana visual a mis trabajos, habilidades y metas profesionales.
 
-🔗 [Explora el sitio web completo aquí](https://angelluna476.github.io/AngelLuna476-portfolio_cv_web/)
+🔗 [Explora el sitio web completo aquí](https://angelluna476.github.io/Angel_Luna_portfolio_cv_web/)
 
 ---
 
