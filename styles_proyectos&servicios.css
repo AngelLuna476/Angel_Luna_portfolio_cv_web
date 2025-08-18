@@ -684,7 +684,7 @@ footer p {
         margin-bottom:        25px !important;
         padding:              0 5px 10px !important;
         border-bottom:        1px solid var(--color-border-dark);
-        margin-top:           70px !important;
+        margin-top:           50px !important;
     }
 
     .sidebar p {
@@ -1735,5 +1735,6 @@ footer p {
     .sidebar-overlay {
         display:                none !important;
     }
+
 
 }
