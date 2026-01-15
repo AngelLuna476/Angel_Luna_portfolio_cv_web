@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Prata&display=swap" rel="stylesheet">
+    <link href="/css/style_index.css" rel="stylesheet">
+</head>
+<body>
+    <button class="toggle-sidebar-button">☰</button> <!-- Botón para desplegar/ocultar el sidebar -->
+    <div class="sidebar">
+        <h1>José Ángel Luna Delgado</h1>
+            <p>Ingeniero en Mantenimiento Industrial |
+            Calidad y Auditoría |
+            Seguridad e Higiene |
+            Supervisor de operaciones |
+            Jefe en mantenimiento industrial |
+            Auxiliar operativo |
+            Programador Junior en JS, HTML y CSS |
+            Junior en Data Science.
+            </p>
+            
+        <div class="links-grid_slidebar">
+            <a href="cursosVer2.html" target="_blank">Cursos y Certificaciones</a>
+            <a href="proyectosVer3.html" target="_blank">Proyectos y Servicios</a>
+        </div>
+        <div>
+            <h2 class="presentacion__enlaces__titulo">Accede a mis redes</h2>
+        </div>
+        <div class="presentacion__enlaces">
+                <div class="presentacion__enlaces__link1">
+                    <a href="https://github.com/AngelLuna476">
+                        <img src="/img/github_logo.png">
+                    </a>
+                </div>
+                <div class="presentacion__enlaces__link2">
+                    <a href="https://linkedin.com/in/angel-luna468213795">
+                        <img src="/img/linkedin_logo.png">
+                    </a>
+                </div>
+        </div>
+            <div class="contacto">
+                <p>
+                    Correo electrónico: joseangel.lunadelgado9910@gmail.com
+                    <br></br>
+                    Celular: +52 61 81 64 20 96
+                </p>
+            </div>
+    </div>
+    <div class="main-content">
+        <section class="profile"> 
+            <h2>Perfil Profesional</h2>
+            <p>
+                Ingeniero en Mantenimiento Industrial con experiencia en calidad, auditoría interna, seguridad e higiene,
+                análisis de datos y soporte técnico. He aplicado metodologías como 8D, RCM e ISO, logrando mejoras en
+                eficiencia, confiabilidad y reducción de costos operativos.
+            </p>
+            <p>
+                Actualmente fortalezco mi perfil en programación (Python, JavaScript), ciencia de datos y herramientas
+                digitales (Docker, Linux) para desarrollar soluciones enfocadas en digitalización de procesos, mantenimiento
+                4.0, automatización e innovación tecnológica.
+            </p>
+            <p>
+                Me motiva auditar, investigar, analizar datos y mejorar procesos, combinando pensamiento crítico, soporte
+                remoto y visión estratégica.
+            </p>
+
+            <section class="frase-inspiradora">
+                <blockquote>
+                    <p><strong>Por encima de nosotros, la excelencia; ante nosotros, el deber técnico.</strong></p>
+                </blockquote>
+            </section>
+
+        </section>
+    
+    
+        <!-- Sección de experiencia y eduación -->
+        <section>
+            <div class="experiencia_educacion-grid">
+                <article class="experiencia_educacion_card" onclick="mostrarExpYEdu('experiencia')">
+                    <h3>EXPERIENCIA</h3>
+                </article>
+                <article class="experiencia_educacion_card" onclick="mostrarExpYEdu('educacion')">
+                    <h3>EDUCACIÓN</h3>
+                </article>
+            </div>
+        
+            <!-- Contenedor para mostrar  / COLOCAR UN INDICADOR CON FORMA  -->
+            <div id="container-experiencia" class="container">
+                <div id="experiencia" class="experiencia_edu">
+                    <h3>EXPERIENCIA</h3>
+                    <list>
+                        <p><strong style="color: #d4af37;">Ingeniero de servicio técnico</strong> - Glory Global Solutions Mexico (2023 - 2024)</p>
+                        <ul class="informacion_experiencia">
+                            <li>Diagnostiqué y resolví fallas en sistemas con tiempos mínimos de respuesta.</li>
+                            <li>Analicé datos de equipos para prevenir fallas y mejorar rendimiento.</li>
+                            <li>Implementé mantenimiento preventivo según estándares internos.</li>
+                            <li>Recomendé técnicas para mejorar la confiabilidad del servicio.</li>
+                            <li>Brindé soporte técnico remoto y escalé incidencias complejas.</li>
+                            <li>Documenté problemas y mantuve registros oficiales.</li>
+                            <p class="nota-formacion"><em style="color: rgb(235, 235, 235);">Logros: Mayor satisfacción del cliente y reducción del tiempo de inactividad.</em></p>                            
+                        </ul>
+                        
+
+                        <p><strong style="color: #d4af37;">Práctica en Desarrollo de la Calidad</strong> - Soluciones Integrales en Trituración SAPI de CV (2022 - 2022)</p>
+                        <ul class="informacion_experiencia">
+                            <li>Lideré el área de almacén asumiendo funciones de jefe de área.</li>
+                            <li>Supervisé y coordiné actividades del personal de almacén.</li>
+                            <li>Apliqué la metodología 8D para solucionar problemas operativos y logísticos.</li>
+                            <li>Implementé acciones correctivas y estandarización de procesos.</li>
+                            <p class="nota-formacion"><em style="color: rgb(235, 235, 235);">Logros: Reducción de incidencias y mejora de eficiencia operativa.</em></p>
+                        </ul>
+                        
+
+                        <p><strong style="color: #d4af37;">Práctica en Seguridad e Higiene</strong> - Mantenimiento Integral Durango (2021 - 2021)</p>
+                        <ul class="informacion_experiencia">
+                            <li>Implementé mejoras en seguridad de procesos industriales.</li>
+                            <li>Se cumplió con normativa oficial mexicana (STPS).</li>
+                            <p class="nota-formacion"><em style="color: rgb(235, 235, 235);">Logros: Disminución de riesgos laborales y aumento del cumplimiento normativo.</em></p>
+                        </ul>
+                        
+
+                        <p><strong style="color: #d4af37;">Práctica en Auditoría Interna</strong> - Centro de Investigación en Materiales Avanzados (2020 - 2020)</p>
+                        <ul class="informacion_experiencia">
+                            <li>Evalué el cumplimiento de la norma ISO/IEC 17025:2017.</li>
+                            <li>Diagnostiqué el estructurado del laboratorio de Medio Ambiente.</li>
+                            <li>Diseñé e implementé proceso operativo alineado a normativas ISO.</li>
+                            <p class="nota-formacion"><em style="color: rgb(235, 235, 235);">Logros: Preparación efectiva para auditorías externas.</em></p>
+                        </ul>
+                        
+
+
+                        <p><strong style="color: #d4af37;">Planificador de servicios</strong> - Costo Copias By SHARP (2018 - 2020)</p>
+                        <ul class="informacion_experiencia">
+                            <li>Actualicé técnica de equipos y repuestos.</li>
+                            <li>Gestioné del backlog de mantenimiento y optimicé el tiempo no productivo.</li>
+                            <li>Elaboré de plan maestro de gestión de equipos.</li>
+                            <li>Implementé de procesos para reducir costos.</li>
+                            <li>Realicé mantenimiento preventivo y correctivo.</li>
+                            <li>Diseñé e implementé mantenimiento RCM basado en parámetros operativos.</li>
+                            <p class="nota-formacion"><em style="color: rgb(235, 235, 235);">Logros: Reducción de costos operativos, optimización del mantenimiento mediante enfoque RCM, mayor confiabilidad y disponibilidad de equipos.</em></p>
+                        </ul>
+                    </list>
+                </div>
+
+                <div id="educacion" class="experiencia_edu">
+                    <h3>EDUCACIÓN</h3>
+                    <list>
+                        <p><strong style="color: #d4af37;">Formación ONE TECH - Especialización Data Science</strong> - Oracle Next Education | 2025 - 2026</p>
+                            <div class="informacion_experiencia">
+                                <p><strong>Habilidades adquiridas:</strong></p>
+                                <ul>
+                                    <li>
+                                        <strong style="color: #d4af37;">Programa ONE Tech Foundation G8 | Especialización Data Science:</strong>
+                                        <ul style="margin-top: 5px;">
+                                            <li><strong style="color: #d4af37;">Programación:</strong> Lógica de programación JS,HTML, CSS, Git y GitHub.</li>
+                                            <li><strong style="color: #d4af37;">Data Science:</strong> Python (pandas, matplotlib), Modelado de datos, ETL, estadística y Machine Learning.</li>
+                                            <li><strong style="color: #d4af37;">Desarrollo profesional:</strong> Desarrollo personal, metodologías ágiles, emprendimiento y liderazgo técnico.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <strong style="color: #d4af37;">ONE TECH ADVANCE - G8:</strong>
+                                        <ul style="margin-top: 5px;">
+                                            <li><strong style="color: #d4af37;">DevOps y computación en nube:</strong> Terminal Linux, redes (Ping, Traceroute, DNS, DHCP), principios DevOps y cloud computing.</li>
+                                            <li><strong style="color: #d4af37;">Oracle Cloud Infrastructure (OCI):</strong> Servicios fundamentales, redes, máquinas virtuales, seguridad, almacenamiento y control de costos.</li>
+                                            <li><strong style="color: #d4af37;">Certificación OCI Foundations Associate:</strong> Para validar competencias en arquitectura y servicios de Oracle Cloud.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong style="color: #d4af37;">ONE TECH EXPLORER - G8:</strong> 
+                                        <ul style="margin-top: 5px;">
+                                            <li><strong style="color: #d4af37;">SQL con MySQL Server de Oracle:</strong> Bases de datos empresariales, diseño y modelado relacional con MySQL, consultas SQL avanzadas (joins, subconsultas, optimización), stored procedures, triggers y administración DBA (seguridad, backups, recuperación).</li>
+                                            <li><strong style="color: #d4af37;">Inteligencia Artificial Generativa:</strong> ingeniería de prompt avanzada, automatización de código, integración de IA en flujos de desarrollo y optimización de productividad con ChatGPT.</li>
+                                            <li><strong style="color: #d4af37;">Oracle Cloud Infrastructure (OCI):</strong> Diseño de arquitecturas cloud escalables, implementación de VCN y redes seguras, gestión de recursos compute y storage, load balancing con alta disponibilidad y despliegue de aplicaciones en producción.</li>
+                                            <li><strong style="color: #d4af37;">Oracle Autonomous Database y APEX:</strong> administración de bases de datos autónomas serverless, gestión de datos híbridos (SQL/JSON), implementación de IA embebida (vectores, embeddings) y desarrollo Low-Code de aplicaciones web empresariales escalables.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <p class="nota-formacion"><em style="color: rgb(235, 235, 235);">Formación intensiva avalada por Oracle en conjunto con Alura LATAM y dirigida por expertos del sector tecnológico.</em></p>
+                            </div>
+                    </list>
+                    <br>
+                    <list>
+                        <p><strong style="color: #d4af37;">Ingeniería en Mantenimiento Industrial</strong> - Universidad Tecnológica de Durango | 2020 - 2022</p>
+                            <div class="informacion_experiencia">
+                                <p><strong>Habilidades adquiridas:</strong></p>
+                                <ul>
+                                    <li>Optimización de estrategias de mantenimiento y gestión del plan maestro para garantizar disponibilidad, confiabilidad y sostenibilidad en planta.</li>
+                                    <li>Análisis de información técnica, humana y económica para toma de decisiones estratégicas basadas en políticas empresariales.</li>
+                                    <li>Aseguramiento de la operación óptima de maquinaria e instalaciones mediante técnicas actuales y mejores prácticas de mantenimiento.</li>
+                                    <li>Supervisión de seguridad e higiene industrial, gestión energética y manejo integral de residuos bajo normas nacionales e internacionales.</li>
+                                    <li>Diseño de proyectos de desarrollo tecnológico con estudios de viabilidad orientados a mejorar la mantenibilidad.</li>
+                                </ul>
+                            </div>
+                    </list>
+                    <br>
+                    <list>
+                        <p><strong style="color: #d4af37;">TSU en Mantenimiento Área Industrial</strong> - Universidad Tecnológica de Durango | 2018 - 2020</p>
+                            <div class="informacion_experiencia">
+                                <p><strong>Habilidades adquiridas:</strong></p>
+                                <ul>
+                                    <li>Gestión del plan maestro de mantenimiento para garantizar operación continua y productividad organizacional.</li>
+                                    <li>Supervisión del ajuste, reemplazo y fabricación de componentes electromecánicos cumpliendo normativa vigente.</li>
+                                </ul>
+                            </div>
+                    </list>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+    <script src="/js/index.js"></script>
+    <footer>
+        <p><strong>&copy; 2025 All rights reserved.</strong> | Desarrollado por J. Ángel Luna </p>
+    </footer>
+</body>
+</html>
